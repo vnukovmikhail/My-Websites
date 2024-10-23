@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.text {
+    height: 500px;
+    background:salmon;
+    /* background: peachpuff; */
+    background-image: url('https://media.tenor.com/VWajfOAwfqUAAAAi/anime-anime-girl-dance.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.text2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    background: thistle;
+    background-image: url('https://media.tenor.com/VWajfOAwfqUAAAAi/anime-anime-girl-dance.gif');
+    background-repeat: space;
+}
+
+.text3 {
+    height: 350px;
+    background: skyblue;
+    background-image: url('https://media.tenor.com/VWajfOAwfqUAAAAi/anime-anime-girl-dance.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    margin-bottom: 35px;
+}
+
+.text4 {
+    height: 150px;
+    background: linear-gradient(to left, tomato, royalblue);
+}

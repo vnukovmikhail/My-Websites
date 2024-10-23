@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 1500px;
+}
+
+.container {
+    position: relative;
+    background: wheat;
+    width: 50%;
+}
+
+.block_1, .block_2, .block_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    color: azure;
+    font-size: 35px;
+} 
+
+.block_1 {
+    background: cornflowerblue;
+    position: absolute;
+    right: 0;
+}
+
+.block_2 {
+    background: salmon;
+}
+
+.block_3 {
+    background: thistle;
+}
+
+/* navbar */
+
+.nav_list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 50px;
+}
+
+.nav_list li a:hover{
+    transition-duration: 0.5s;
+    text-decoration: underline;
+    background: black;
+    color: white;
+    border: 15px solid white;
+    border-radius: 0px;
+    padding: 5px 60px;
+}
+
+/* end */

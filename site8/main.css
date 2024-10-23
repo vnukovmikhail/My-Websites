@@ -1,0 +1,104 @@
+div {
+    margin: 5px;
+}
+
+.text {
+    background: khaki;
+    width: 90px;
+    height: 50px;
+    transition: .5s linear;
+}
+
+.text:hover {
+    background: rosybrown;
+    height: 20px;
+    width: 150px;
+}
+
+.container {
+    align-items: center;
+    justify-items: center;
+    background-color: beige;
+    border-radius: 50px;
+    width: 110px;
+}
+
+.text2 {
+    background: powderblue;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 15px;
+    transform-origin: center;
+    transition: .5s ease;
+    border: none;
+}
+
+.text2:focus {
+    background: mediumseagreen;
+    color: transparent;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+}
+
+.image {
+    background: coral;
+    height: 100px;
+    width: 100px;
+    background: url('https://media.tenor.com/pXmDXN3pwPwAAAAi/esiledoodles-esiledoodles-cora.gif');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-name: run;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    /* animation-direction: normal; */
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+
+@keyframes run {
+    0% {
+        margin-left: 0;
+        border: 1px solid tomato;
+        border-radius: 30px;
+    }
+    25% {transform: rotate(15deg);}
+    50% {transform: rotate(0);}
+    75% {transform: rotate(-15deg);}
+    100% {
+        margin-left: 100px;
+        border: 5px solid tomato;
+        transform: rotate(0);
+        border-radius: 60px;
+    }
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+    background: thistle;
+    font-size: 50px;
+    color: snow;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family:fantasy;
+    animation: what 2s linear alternate infinite;
+    transform-origin: center;
+}
+
+@keyframes what {
+    0% {
+        transform: scale(-1);
+    }
+    100% {
+        /* transform: rotate(360deg); */
+        /* transform: skew(20deg, 50deg); */
+        /* transform: translateX(100px); */
+        transform: rotate(360deg) translateY(100px) scale(.25);
+    }
+}

@@ -1,0 +1,33 @@
+/* @font-face {
+    font-family: MyFont;
+    src: url();
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24');
+
+body {
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    background: lightblue;
+}
+
+.section div {
+    background: lightcoral;
+    color: snow;
+    border-radius: 15px;
+    height: 25px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Jacquard 24";
+    font-size: 25px;
+    
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    background: honeydew;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    transition-duration: .5s;
+}
+
+li:hover {
+    background: lemonchiffon;
+    border-radius: 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background: lightcoral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+}
